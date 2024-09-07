@@ -1,0 +1,89 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  display: flex;
+  justify-content: center;
+  background-color: #F9FAFB;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+.card {
+  display: inline-block;
+  border-radius: 8px;
+  width: 340px;
+  font-size: 14px;
+  margin-top: 120px;
+}
+
+.badge {
+  padding: 2px 8px;
+  border: 1px solid #BBF7D0;
+  background-color: #F0FDF4;
+  border-radius: 10px;
+  color: #15803D;
+  display: inline-block;
+}
+
+.card-header-text {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0px 2px;
+}
+
+.card-content {
+  padding: 24px 16px;
+  background-color: #ffffff;
+}
+
+.card-footer {
+  margin-top: 12px;
+}
+
+.card-cta {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.card-cta:hover{
+  cursor: pointer;
+}
+
+.card-cta-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4338CA;
+}
+
+.card-cta-icon {
+  margin-left: 6px;
+}
